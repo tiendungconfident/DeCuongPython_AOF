@@ -30,7 +30,7 @@ while True:
                 if stt <= 0:
                     print("Vui lòng nhập lại STT > 0.")
                     continue
-            except:
+            except ValueError:
                 print("Giá trị nhập sai kiểu dữ liệu!")
                 continue
             break
@@ -41,7 +41,7 @@ while True:
                 if so_hd <= 0:
                     print("Vui lòng nhập lại Số hóa đơn > 0.")
                     continue
-            except:
+            except ValueError:
                 print("Giá trị nhập sai kiểu dữ liệu!")
                 continue
             break
@@ -59,7 +59,7 @@ while True:
                 if ngay_ban < 1 or ngay_ban > 31:
                     print("Vui lòng nhập lại ngày bán.")
                     continue
-            except:
+            except ValueError:
                 print("Giá trị nhập sai kiểu dữ liệu!")
                 continue
             break
@@ -70,7 +70,7 @@ while True:
                 if thang_ban < 1 or thang_ban > 12:
                     print("Vui lòng nhập lại tháng bán.")
                     continue
-            except:
+            except ValueError:
                 print("Giá trị nhập sai kiểu dữ liệu!")
                 continue
             break
@@ -81,7 +81,7 @@ while True:
                 if so_luong <= 0:
                     print("Vui lòng nhập lại Số lượng > 0.")
                     continue
-            except:
+            except ValueError:
                 print("Giá trị nhập sai kiểu dữ liệu!")
                 continue
             break
@@ -92,7 +92,7 @@ while True:
                 if don_gia <= 0:
                     print("Vui lòng nhập lại Đơn giá > 0.")
                     continue
-            except:
+            except ValueError:
                 print("Giá trị nhập sai kiểu dữ liệu!")
                 continue
             break
